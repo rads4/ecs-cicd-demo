@@ -1,6 +1,6 @@
 import boto3
 
-ecs = boto3.client("ecs", region_name="ap-south-1")
+ecs = boto3.client("ecs", region_name="us-east-2")
 
 cluster_name = "3tier-ec2-cluster"
 
